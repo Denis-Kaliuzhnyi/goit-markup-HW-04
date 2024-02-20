@@ -56,6 +56,9 @@ body {
 
 .top-header {
     display: block;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .top-line,
@@ -98,6 +101,8 @@ width: 1158px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+    position: relative;
+    color: #404bbf;
 }
 
 .nav-link:hover,
@@ -122,6 +127,7 @@ width: 1158px;
 .address-link:hover,
 .address-link:focus {
     color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Section 1*/
@@ -131,9 +137,11 @@ width: 1158px;
 .hero_section {
     background-color: #2e2f42;
     background-image: url(../images/people-office-hero2.jpg);
-    background-size: cover;
     background-image: linear-gradient (rgba(46, 47, 66, 0.7)), 
     rgba(46, 47, 66, 0.7);
+    max-width: 1440px;
+    margin: 0 auto;
+
         
    }
 
