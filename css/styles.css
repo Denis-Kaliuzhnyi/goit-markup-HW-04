@@ -330,6 +330,18 @@ width: 1158px;
     margin-bottom: 8px;
 }
 
+.icons-all {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    }
+
+.web-list {
+    width: 40px;
+    height: 40px;
+    
+}
+
 /* Section 4*/
 
 .container.section-four {
