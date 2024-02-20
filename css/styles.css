@@ -60,15 +60,7 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 
     0px 1px 6px rgba(46, 47, 66, 0.08);
 
-    content: '';
-        width: 100%;
-        position: absolute;
-        left: 0;
-        bottom: -1px;
-        height: 4px;
-        background-color: #404bbf;
-        border-radius: 2px;
-}
+   }
 
 .top-header::after {
     content: '';
@@ -151,19 +143,18 @@ width: 1158px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
 /* Section 1*/
-
-
 
 .hero_section {
     background-color: #2e2f42;
-    background-image: url(../images/people-office-hero2.jpg);
-    background-image: linear-gradient (rgba(46, 47, 66, 0.7)), 
-    rgba(46, 47, 66, 0.7);
     max-width: 1440px;
     margin: 0 auto;
-
-        
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),            url(../images/img-name.jpeg);
+      
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
    }
 
 .hero_section .container {
@@ -205,8 +196,8 @@ width: 1158px;
     border-radius: 4px;
     margin: 0 auto;
     display: inline-block;
-    
-   
+    transition-property: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       
     }
 
 .order_button:hover,
