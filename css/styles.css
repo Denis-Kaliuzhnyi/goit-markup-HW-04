@@ -261,10 +261,7 @@ width: 1158px;
     color: #434455;
     }
 
-.antena,
-.clock,
-.diagram,
-.astronaut {
+.icons-all {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -272,6 +269,7 @@ width: 1158px;
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
+    padding: 24px 100px;
 }
 
 /* Section 3 */
