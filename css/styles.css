@@ -115,9 +115,6 @@ width: 1158px;
     color: #404bbf;
 }
 
-.nav-link::after {
-    
-}
 
 .nav-link:hover,
 .nav-link:focus {
@@ -201,6 +198,7 @@ width: 1158px;
     background-color: #404bbf;
 }
 
+
 /* Section 2*/
 .section-two {
     padding: 120px 0;
@@ -244,7 +242,6 @@ width: 1158px;
     
 }
 
-
 .focus {
     font-weight: 500;
     font-size: 20px;
@@ -261,7 +258,7 @@ width: 1158px;
     color: #434455;
     }
 
-.icons-section2 {
+.icons-section_ii {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -270,6 +267,18 @@ width: 1158px;
     border-radius: 4px;
     margin-bottom: 8px;
     padding: 24px 100px;
+}
+
+.icons-all {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.web-list {
+    width: 40px;
+    height: 40px;
+    
 }
 
 /* Section 3 */
@@ -339,7 +348,7 @@ width: 1158px;
 .web-list {
     width: 40px;
     height: 40px;
-    
+
 }
 
 /* Section 4*/
