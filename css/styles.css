@@ -346,10 +346,6 @@ body {
   gap: 24px;
 }
 
-.icons-all:hover,
-.icons-all:focus {
-}
-
 .web-list {
   width: 40px;
   height: 40px;
@@ -404,6 +400,10 @@ body {
 .image-section-four {
   overflow: hidden;
   position: relative;
+}
+
+.image-section-four:hover {
+  transform: translateY(0%);
 }
 
 .text-section-four {
