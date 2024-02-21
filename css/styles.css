@@ -250,7 +250,7 @@ body {
 }
 
 .team-list p {
-  transition: transform 0.3s ease; /* Додамо анімацію для плавного зміщення */
+  transition: transform 0.3s ease;
 }
 
 .team-list:hover p {
