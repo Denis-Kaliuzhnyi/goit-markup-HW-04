@@ -249,14 +249,6 @@ body {
   position: relative;
 }
 
-.team-list p {
-  transition: transform 0.3s ease;
-}
-
-.team-list:hover p {
-  transform: translateY(0%);
-}
-
 .team-item {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
@@ -411,15 +403,16 @@ body {
 
 .image-section-four {
   overflow: hidden;
+  position: relative;
 }
 
 .text-section-four {
   position: absolute;
+  display: flex;
   top: 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /*color: в який записана css змінна зі значенням #f4f4fd;*/
   padding: 40px 32px;
   background-color: #4d5ae5;
   height: 100%;
@@ -466,7 +459,7 @@ body {
   background-color: #2e2f42;
 }
 
-.container .footer {
+.footer-section .container {
   display: flex;
   align-items: baseline;
 }
