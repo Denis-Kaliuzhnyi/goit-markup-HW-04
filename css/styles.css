@@ -450,10 +450,12 @@ body {
   padding: 100px 0;
   display: flex;
   align-items: baseline;
+  background-color: #2e2f42;
 }
 
-.footer-section {
-  background-color: #2e2f42;
+.container .footer {
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-span {
@@ -474,6 +476,11 @@ body {
 
 .web-text-footer {
   margin-right: 120px;
+}
+
+.web-text-footer:hover,
+.web-text-footer:focus {
+  background-color: #31d0aa;
 }
 
 .social-media {
