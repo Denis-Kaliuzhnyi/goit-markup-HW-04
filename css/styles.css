@@ -473,10 +473,6 @@ body {
   color: #f4f4fd;
 }
 
-:root {
-  color: #ffffff;
-}
-
 .footer-text {
   line-height: 1.5;
   color: #f4f4fd;
@@ -503,8 +499,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /*color: в який записана css змінна зі значенням #FFFFFF*/
   margin-bottom: 16px;
+  color: #ffffff;
 }
 
 .icons-footer {
@@ -518,7 +514,6 @@ body {
 }
 
 :root {
-  background-color: #4d5ae5;
 }
 
 .web-link-footer {
@@ -529,13 +524,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #4d5ae5;
 }
 
-:root {
-  background-color: #31d0aa;
-}
-
-.web-list-footer:hover,
-.web-list-footer:focus {
+.web-link-footer:hover,
+.web-link-footer:focus {
   background-color: #31d0aa;
 }
