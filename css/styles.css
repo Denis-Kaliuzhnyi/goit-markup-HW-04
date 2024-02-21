@@ -246,6 +246,15 @@ body {
   display: flex;
   gap: 24px;
   align-items: center;
+  position: relative;
+}
+
+.team-list p {
+  transition: transform 0.3s ease; /* Додамо анімацію для плавного зміщення */
+}
+
+.team-list:hover p {
+  transform: translateY(0%);
 }
 
 .team-item {
@@ -343,6 +352,10 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
+}
+
+.icons-all:hover,
+.icons-all:focus {
 }
 
 .web-list {
